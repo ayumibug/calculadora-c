@@ -99,9 +99,10 @@ int main() {
                 break;
         }
 
-        while ((caractere = getchar()) != '\n' && caractere != EOF);
-
         if (opcao != 5) {
+
+            while ((caractere = getchar()) != '\n' && caractere != EOF);
+
             respostaValida = 0;
 
             do {
